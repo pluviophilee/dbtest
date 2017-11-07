@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Student name:</strong>
+  <%= @memo.student_name %>
+</p>
+
+<p>
+  <strong>Student id:</strong>
+  <%= @memo.student_id %>
+</p>
+
+<p>
+  <strong>Student academy:</strong>
+  <%= @memo.student_academy %>
+</p>
+
+<p>
+  <strong>Student major:</strong>
+  <%= @memo.student_major %>
+</p>
+
+<p>
+  <strong>Student degree:</strong>
+  <%= @memo.student_degree %>
+</p>
+
+<p>
+  <strong>Student credit:</strong>
+  <%= @memo.student_credit %>
+</p>
+
+<p>
+  <strong>Student course:</strong>
+  <%= @memo.student_course %>
+</p>
+
+<p>
+  <strong>Student password:</strong>
+  <%= @memo.student_password %>
+</p>
+
+<%= link_to 'Edit', edit_memo_path(@memo) %> |
+<%= link_to 'Back', memos_path %>
